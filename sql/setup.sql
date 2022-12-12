@@ -8,7 +8,7 @@ CREATE TABLE colors (
     hex VARCHAR NOT NULL UNIQUE
 );
 
-INSERT into colors (year, name, value) values
+INSERT into colors (year, name, value, hex) values
 (2023, 'Viva Magenta', '18-1750', '#BB2649'),
 (2022, 'Very Peri', '17-3938', '#6667AB'),
 (2021, 'Ultimate Grey + Illuminating', '17-5104 + 13-0647', '#939597 + #F5DF4D'),
